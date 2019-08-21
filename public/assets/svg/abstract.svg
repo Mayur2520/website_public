@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+	 
+	  <style>
+    /* <![CDATA[ */
+    #framecorner2 {
+       transform: rotate(180deg);
+  
+  /* doesn't work as intended in Firefox 
+   * % values are taken relative to the SVG, not the element
+   * which actually seems to be correct */
+	transform-origin: 80% 45%;
+    }
+	
+	#framecorner1 {
+		transform: translate(-310px, 40px);
+    }
+    /* ]]> */
+  </style>
+	 
+		<polygon points="357.503,357.502 132.497,357.502 132.497,132.498 0,0 0,490 490,490 " id="framecorner1"/>
+		<polygon points="357.503,357.502 132.497,357.502 132.497,132.498 0,0 0,490 490,490 " id="framecorner2" />
+
+</svg>
