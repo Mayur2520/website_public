@@ -2507,9 +2507,7 @@ a.text-dark:hover {
 
 /* ----------------------------------------------------------------- */
 /* CUSTOME PROPERTIES */
-.carousel .carousel-img {
-    height: 30em !important;
-}
+
 
 nav {
     background-color: transparent;
@@ -2524,6 +2522,14 @@ nav {
 }
 
 
+.section-lighten {
+    background: -webkit-linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent) ;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* opacity: .7; */
+    position: relative;
+}
 .nav-shadow, .page-footer {
     background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -2537,7 +2543,7 @@ nav {
 
 .header {
     position: relative;
-    height: 30em;
+    height: 40em;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -2561,17 +2567,13 @@ svg {
 @media only screen and (max-width: 600px) {
     .header {
         position: relative;
-        height: 13em;
+        height: 25em;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #FF4B2B, #FF416C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-
-    .carousel .carousel-img {
-        height: 12em !important;
     }
 }
 
@@ -2579,17 +2581,13 @@ svg {
 @media only screen and (min-width: 600px) {
     .header {
         position: relative;
-        height: 13em;
+        height: 25em;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #FF4B2B, #FF416C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-
-    .carousel .carousel-img {
-        height: 12em !important;
     }
 }
 
@@ -2597,17 +2595,13 @@ svg {
 @media only screen and (min-width: 768px) {
     .header {
         position: relative;
-        height: 30em;
+        height: 40em;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #FF4B2B, #FF416C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-
-    .carousel .carousel-img {
-        height: 30em !important;
     }
 }
 
@@ -2615,17 +2609,13 @@ svg {
 @media only screen and (min-width: 992px) {
     .header {
         position: relative;
-        height: 30em;
+        height: 40em;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #FF4B2B, #FF416C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-
-    .carousel .carousel-img {
-        height: 30em !important;
     }
 }
 
@@ -2633,17 +2623,13 @@ svg {
 @media only screen and (min-width: 1200px) {
     .header {
         position: relative;
-        height: 30em;
+        height: 40em;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #FF4B2B, #FF416C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    }
-
-    .carousel .carousel-img {
-        height: 30em !important;
     }
 }
 
@@ -2819,6 +2805,68 @@ svg {
     }
 }
 
-#map {
-    height: 100%;
+#sesion2-wave {
+    /* doesn't work in IE/ early Edge */
+    transform: rotate(180deg);
+    top: -1px;
+    position: absolute;
   }
+
+.heading-1
+{
+    font-size: 26px;
+    background: -webkit-linear-gradient(#D31027, #EA384D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+}
+.input-field > label {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    cursor: text;
+    -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
+    transition: color .2s ease-out, -webkit-transform .2s ease-out;
+    transition: transform .2s ease-out, color .2s ease-out;
+    transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    text-align: initial;
+    -webkit-transform: translateY(12px);
+    transform: translateY(12px);
+}
+label {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.btn-primary
+{
+    background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

@@ -24,6 +24,7 @@
 
   <link href="./assets/css/materialize.css" rel="stylesheet" type="text/css" media="all" />
   <link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="./assets/css/animate.css" rel="stylesheet" type="text/css" media="all" />
   <link href="./assets/css/carousel.css" rel="stylesheet" type="text/css" media="all" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,7 +44,7 @@
 <body id="materialize-shopify-themes" class="template-index ">
   <div class="header">
     <div id="navigation" >
-      <nav id="navbar">
+      <nav id="navbar" class="animated">
         <div class="nav-wrapper">
           <a href="#" data-target="slide-out" class="sidenav-trigger" class="brand-logo left ml-3 hide-on-med-and-up"><i
               class="material-icons">menu</i></a>
@@ -70,35 +71,38 @@
 
 
   <div class="container">
-    <div class="row">
+    <div class="row" data-aos="slide-right">
     <div class="col s12 m12 l12 mb-4 text-center">
-      <h5>About US</h5>
+      <h5 class="heading-1">About US</h5>
     </div>
-    <div class="col s12 m4 l4">
+    <div class="col s12 m6 l6" data-aos="slide-right" data-aos-delay="400">
         What is Lorem Ipsum?
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </div>
     <!-- col end -->
-    <div class="col s12 m4 l4">
-        What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </div>
-    <!-- col end -->
-    <div class="col s12 m4 l4">
+    <div class="col s12 m6 l6" data-aos="slide-right" data-aos-delay="300">
         What is Lorem Ipsum?
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </div>
     <!-- col end -->
     </div>
     <!-- row end -->
-    <div class="row mt-4">
+  </div>
+  <!-- container end -->
+  <div class="row section-lighten">
+      <svg id="sesion2-wave" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270">
+        <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" stroke-width="120"
+          stroke-linecap="round"/>
+      </svg>
+  <div class="container mt-4" style="position: relative" data-aos="flip-down">
+    <div class="row mt-2" >
         <div class="col s12 m12 l12 text-center">
-            <h5>Products</h5>
+            <h5 class="heading-1">Products</h5>
           </div>
       </div>
       <div class="row">
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -113,7 +117,7 @@
                 </div>
           </div>
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -128,7 +132,7 @@
                 </div>
           </div>
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -143,7 +147,7 @@
                 </div>
           </div>
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -158,7 +162,7 @@
                 </div>
           </div>
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -173,7 +177,7 @@
                 </div>
           </div>
           <div class="col l4 m4 s12">
-              <div class="card">
+              <div class="card" data-aos="flip-down">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="images/office.jpg">
                   </div>
@@ -188,19 +192,22 @@
                 </div>
           </div>
       </div>
+      </div>
+      </div>
 
-
+      <div class="container" data-aos="fade-right">
     <div class="row mt-4">
         <div class="col s12 m12 l12 text-center">
-            <h5>Partners</h5>
+            <h5 class="heading-1">Partners</h5>
           </div>
-          </div>
+          
+    <div class="col m12 s12 l12">
     <div class="row">
        
          <!-- SWIPER SECTION -->
 
 
-         <section class="epcl-carousel section outer-arrows slides-5" data-show="5" data-rtl="" data-aos="fade">
+         <section class="epcl-carousel section outer-arrows slides-5" data-show="5" data-rtl="" data-aos="fade-right">
             <div class="item">
                 <article>
                     <div class="img cover" role="img" aria-label="Bringing samples back is a considerable challenge"
@@ -304,7 +311,8 @@
 
 
          <!-- SWIPER SECTION EDN -->
-
+        </div>
+        </div>
     </div>
     <!-- row end -->
   </div>
@@ -335,29 +343,49 @@
 
   <footer class="page-footer">
       <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Contact US</h5>
-            <p class="grey-text text-lighten-4"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Address line 1 Address line 2, City, State, Country, 400-000.</p>
-            <p class="grey-text text-lighten-4"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 022 25000000 / 022 2600000000</p>
-            <p class="grey-text text-lighten-4"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp; +91 9800000000</p>
-          </div>
-          <div class="col l6 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
-          </div>
+        <div class="row" data-aos="zoom-in">
+
+            <div class="col l6 s12">
+                <h5 class="white-text">Contact US</h5>
+                <p class="grey-text text-lighten-4"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Address line 1 Address line 2, City, State, Country, 400-000.</p>
+                <p class="grey-text text-lighten-4"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 022 25000000 / 022 2600000000</p>
+                <p class="grey-text text-lighten-4"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp; +91 9800000000</p>
+              </div>
+
+            <div class="col l6 s12">
+                <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="fullname" type="text" class="validate" style="color: #fff">
+                          <label for="fullname">Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="mobileno" type="text" class="validate" style="color: #fff">
+                          <label for="mobileno">Mobile No.</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="email" type="text" class="validate" style="color: #fff">
+                          <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="comment" class="materialize-textarea"></textarea>
+                            <label for="comment">Comment</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <a class="waves-effect waves-light btn btn-primary"><i class="material-icons left">send</i>Send</a>
+                        </div>
+                      </div>
+                      </form>
+                      </div>
+              </div>
         </div>
       </div>
 
-      <div style="">
-          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15069.474781095545!2d72.9638529!3d19.2227569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f5f3337bac16504!2sThreesa+Broadband!5e0!3m2!1sen!2sin!4v1520418241301"  frameborder="0" style="border:0;height:250px;" allowfullscreen></iframe>
+      <!-- <div data-aos="zoom-in" class="row">
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15069.474781095545!2d72.9638529!3d19.2227569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f5f3337bac16504!2sThreesa+Broadband!5e0!3m2!1sen!2sin!4v1520418241301"  frameborder="0" style="border:0;height:300px;" allowfullscreen></iframe>
       </div>
-
+ -->
       <div class="footer-copyright">
         <div class="container">
         © 2014 Copyright Text
@@ -385,11 +413,13 @@
     if (scroll > 0) {
         //clearHeader, not clearheader - caps H
         $("#navigation").addClass("navbar-fixed");
+        $("#navbar").addClass("fadeInDown");
         $("#navbar").addClass("nav-shadow");
     }
     else
     {
       $("#navigation").removeClass("navbar-fixed");
+      $("#navbar").removeClass("fadeInDown");
       $("#navbar").removeClass("nav-shadow");
     }
 });
