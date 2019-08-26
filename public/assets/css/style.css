@@ -2522,14 +2522,7 @@ nav {
 }
 
 
-.section-lighten {
-    background: -webkit-linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent) ;
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* opacity: .7; */
-    position: relative;
-}
+
 .nav-shadow, .page-footer {
     background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -2870,3 +2863,33 @@ background: -webkit-linear-gradient(to bottom, #2948ff, #396afc);  /* Chrome 10-
 background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
+/* .section-lighten { */
+    /* background: -webkit-linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, transparent, #FF4B2B, #FF416C, transparent) ; */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* opacity: .7; */
+    /* position: relative; */
+/* } */
+
+/* https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 */
+.section-lighten {
+    background: url("../img/vectorstock_4674665.jpg");
+     position: relative;
+      background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+ 
+ .layer {
+     background: -webkit-linear-gradient(to right, #FF4B2BBF, #FF416CBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2BBF, #FF416CBF) ;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 400px;
+ }
