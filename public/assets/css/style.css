@@ -1,3 +1,7 @@
+
+html, body{
+    overflow-x: hidden !important;
+}
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important
 }
@@ -2893,3 +2897,18 @@ background: linear-gradient(to bottom, #2948ff, #396afc); /* W3C, IE 10+/ Edge, 
      width: 100%;
      height: 400px;
  }
+
+
+ #speker, #spwhite, #sprect1, #sprect2, #screen1, #screen2{
+    /* doesn't work in IE/ older Edge */
+    top:200px !important;
+    transform: translate(100px, 405px) !important;
+    transform: rotate(-45deg) !important;
+     transform-origin: 50% 50% !important;
+  }
+
+  #img1{
+    /* doesn't work in IE/ older Edge */
+    transform: rotate(-44.9deg) !important;
+    transform-origin: 65% 73% !important;
+  }

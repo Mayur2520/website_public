@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="511pt" version="1.1" viewBox="-105 1 511 511.99999" width="511pt">
+
+<style type="text/css"><![CDATA[
+      #speker, #spwhite, #sprect1, #sprect2, #screen1, #screen2, #img1{
+  /* doesn't work in IE/ older Edge */
+  top:200px;
+	transform: translate(100px, 405px);
+	transform: rotate(-45deg);
+	 transform-origin: 50% 50%;
+}
+    ]]></style>
+
+
+ <defs>
+        <pattern id="img34" patternUnits="userSpaceOnUse" width="100%" height="100%">
+          <image href="assets/img/1.jpg" x="-10%" y="0" width="100%" height="100%" />
+        </pattern>
+      </defs>
+
+<g id="surface1" transform='scale(.6 .6)'>
+<path d="M 88.777344 459.035156 L 300.636719 459.035156 L 300.636719 247.171875 C 300.707031 364.113281 205.964844 458.964844 89.023438 459.035156 C 88.941406 459.035156 88.859375 459.035156 88.777344 459.035156 Z M 88.777344 459.035156 " style=" stroke:none;fill-rule:nonzero;fill:rgb(60.784314%,98.431373%,100%);fill-opacity:1;" id="screen1"/>
+<path d="M 0.5 52.964844 L 0.5 459.035156 L 88.777344 459.035156 C 205.714844 459.101562 300.570312 364.359375 300.636719 247.417969 C 300.636719 247.335938 300.636719 247.253906 300.636719 247.171875 L 300.636719 52.964844 Z M 0.5 52.964844 "  style=" stroke:none;fill-rule:nonzero;fill-opacity:1;" fill="url(#img34)" id="screen2"/>
+
+ <image href="../img/1.jpg" height="300" width="60%" id="img1"/>
+
+<path d="M 300.636719 26.484375 C 300.636719 15.808594 284.828125 0 265.328125 0 L 35.8125 0 C 16.308594 0 0.5 15.808594 0.5 35.3125 L 0.5 52.964844 L 300.636719 52.964844 Z M 300.636719 26.484375 " style=" stroke:none;fill-rule:nonzero;fill:rgb(34.509804%,34.901961%,35.686275%);fill-opacity:1;" id="speker" />
+<path d="M 0.5 485.515625 C 0.5 496.191406 16.308594 512 35.8125 512 L 265.328125 512 C 284.828125 512 300.636719 496.191406 300.636719 476.6875 L 300.636719 459.035156 L 0.5 459.035156 Z M 0.5 485.515625 " style=" stroke:none;fill-rule:nonzero;fill:rgb(34.509804%,34.901961%,35.686275%);fill-opacity:1;" id="spwhite"/>
+
+<path d="M 141.742188 450.207031 L 159.398438 450.207031 L 159.398438 467.863281 L 141.742188 467.863281 Z M 141.742188 450.207031 " style=" stroke:none;fill-rule:nonzero;fill:rgb(94.509804%,94.901961%,94.901961%);fill-opacity:1;" id="sprect1"/>
+<path d="M 141.742188 17.65625 L 159.398438 17.65625 L 159.398438 35.3125 L 141.742188 35.3125 Z M 141.742188 17.65625 " style=" stroke:none;fill-rule:nonzero;fill:rgb(94.509804%,94.901961%,94.901961%);fill-opacity:1;" id="sprect2"/>
+</g>
+</svg>
